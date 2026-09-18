@@ -128,13 +128,28 @@ nav a[aria-current="page"] {
 .hero.small { padding: 46px 20px 40px; }
 .hero.small h1 { font-size: clamp(30px, 5vw, 44px); margin: 0; }
 
-/* Photo banner: class "photo" on .hero uses images/banner.jpg under a dark wash */
+/* Photo banners: class "photo" plus one bg-* class per page, under a dark wash */
 .hero.photo {
-  background-image: linear-gradient(rgba(15, 15, 25, 0.38), rgba(15, 15, 25, 0.50)), url("images/banner.jpg");
   background-size: cover;
   background-position: center 45%;
 }
 .hero.photo::before { display: none; }
+.hero.bg-campus {   /* Home: HBS campus in bloom */
+  background-image: linear-gradient(rgba(15, 15, 25, 0.38), rgba(15, 15, 25, 0.50)), url("images/banner-campus.jpg");
+  background-position: center 45%;
+}
+.hero.bg-gulls {    /* Research: seagulls at sunset */
+  background-image: linear-gradient(rgba(15, 15, 25, 0.30), rgba(15, 15, 25, 0.45)), url("images/banner-gulls.jpg");
+  background-position: center 30%;
+}
+.hero.bg-blossom {  /* Teaching: blossoms and blue sky */
+  background-image: linear-gradient(rgba(15, 15, 25, 0.40), rgba(15, 15, 25, 0.50)), url("images/banner-blossom.jpg");
+  background-position: center 40%;
+}
+.hero.bg-river {    /* Personal: Charles River sunset */
+  background-image: linear-gradient(rgba(15, 15, 25, 0.30), rgba(15, 15, 25, 0.45)), url("images/banner-river.jpg");
+  background-position: center 55%;
+}
 .hero.photo h1,
 .hero.photo p { text-shadow: 0 1px 14px rgba(0, 0, 0, 0.5); }
 
