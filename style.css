@@ -175,6 +175,7 @@ nav a[aria-current="page"] {
   margin: 0 0 12px;
 }
 .intro p { margin: 0 0 14px; }
+.hl { color: var(--crimson); font-weight: 600; }
 .contact {
   margin: 18px 0 0;
   padding: 0;
