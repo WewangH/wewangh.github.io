@@ -139,7 +139,7 @@ nav a[aria-current="page"] {
   background-position: center 45%;
 }
 .hero.bg-gulls {    /* Personal: seagulls at sunset */
-  background-image: linear-gradient(rgba(15, 15, 25, 0.30), rgba(15, 15, 25, 0.45)), url("images/banner-gulls.jpg");
+  background-image: linear-gradient(rgba(15, 15, 25, 0.30), rgba(15, 15, 25, 0.45)), url("images/banner-gulls-2.jpg");
   background-position: center 50%;
 }
 .hero.bg-blossom {  /* Research: blossoms and blue sky */
