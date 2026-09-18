@@ -128,13 +128,15 @@ nav a[aria-current="page"] {
 .hero.small { padding: 46px 20px 40px; }
 .hero.small h1 { font-size: clamp(30px, 5vw, 44px); margin: 0; }
 
-/* Optional photo banner: add class "photo" to .hero and set --banner */
+/* Photo banner: class "photo" on .hero uses images/banner.jpg under a dark wash */
 .hero.photo {
-  background-image: linear-gradient(rgba(60, 10, 18, 0.55), rgba(60, 10, 18, 0.55)), var(--banner);
+  background-image: linear-gradient(rgba(15, 15, 25, 0.38), rgba(15, 15, 25, 0.50)), url("images/banner.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: center 45%;
 }
 .hero.photo::before { display: none; }
+.hero.photo h1,
+.hero.photo p { text-shadow: 0 1px 14px rgba(0, 0, 0, 0.5); }
 
 /* ---------- Home: photo + bio ---------- */
 .intro {
