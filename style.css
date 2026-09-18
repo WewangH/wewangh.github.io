@@ -125,7 +125,7 @@ nav a[aria-current="page"] {
   font-size: clamp(16px, 2.3vw, 19px);
   opacity: 0.95;
 }
-.hero.small { padding: 46px 20px 40px; }
+.hero.small { padding: 92px 20px 84px; }
 .hero.small h1 { font-size: clamp(30px, 5vw, 44px); margin: 0; }
 
 /* Photo banners: class "photo" plus one bg-* class per page, under a dark wash */
@@ -148,7 +148,7 @@ nav a[aria-current="page"] {
 }
 .hero.bg-river {    /* Teaching: Charles River sunset */
   background-image: linear-gradient(rgba(15, 15, 25, 0.30), rgba(15, 15, 25, 0.45)), url("images/banner-river.jpg");
-  background-position: center 55%;
+  background-position: center 68%;
 }
 .hero.photo h1,
 .hero.photo p { text-shadow: 0 1px 14px rgba(0, 0, 0, 0.5); }
@@ -327,4 +327,5 @@ footer a { color: var(--muted); border-bottom-color: rgba(95, 107, 122, 0.4); }
   .intro { grid-template-columns: 1fr; gap: 26px; padding-top: 36px; }
   .intro img { max-width: 240px; margin: 0 auto; }
   .hero { padding: 48px 20px 44px; }
+  .hero.small { padding: 66px 20px 60px; }
 }
