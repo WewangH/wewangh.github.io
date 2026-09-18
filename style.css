@@ -232,6 +232,7 @@ main.wrap { padding-bottom: 24px; }
 
 /* ---------- Research entries ---------- */
 .papers { padding: 22px 0 4px; }
+main.wrap > .papers:first-child { padding-top: 40px; }
 .paper {
   padding: 20px 0;
   border-bottom: 1px solid var(--rule);
